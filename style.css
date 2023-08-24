@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* /////////nav-bar//////// */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 110px;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin: 0px 18px;
+}
+
+.btn-nav {
+    display: flex;
+    border: 0px solid black;
+    padding: 20px;
+    background-color: yellow;
+    font-size: 1.7rem;
+
+}
+
+.nav-bar ul li a:hover {
+    color: blue;
+
+}
+
+.btn-nav:hover span {
+    /* background: rgba(255, 255, 255, 0.884);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999; */
+    display: none;
+}
+
+.btn-nav:hover::before {
+    content: "Faid mir";
+}
+
+.btn-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ///////hero-section//// */
+
+
+.hero-sec {
+    display: flex;
+    flex-direction: column;
+    padding: 1px 121px;
+}
+
+h1 {
+    color: black;
+    font-size: 5.5rem;
+    font-weight: 100px;
+}
+
+p {
+    font-size: 2.8rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+}
+
+/* /////////img-sec//// */
+
+
+.img-sec {
+
+    display: flex;
+    justify-content: center;
+    padding: 4% 109px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 190px;
+}
+
+.box-1 {
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.wrapper {
+    display: flex;
+    margin: 5px 108px;
+    gap: 77px;
+}
+
+.box1 img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box1 h2 {
+    padding-block: 20px;
+}
+
+.box1 p {
+    padding-block: 20px;
+    font-size: 1.5rem;
+}
+
+/* /////////sub-footer//// */
+.sub-footer {
+    gap: 30px;
+    /* margin: 10px 101px; */
+    object-fit: cover;
+    background-color: silver;
+    padding: 30px 102px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.sub-footer p {
+    font-size: 1.5rem;
+
+}
+
+/* ///////sub-sub-footer///////////// */
+.sub-sub-footer p {
+    font-size: 2rem;
+}
+
+.sub-sub-footer {
+    background-color: black;
+    color: white;
+    padding: 70px 105px;
+    /* margin: 10px 102px; */
+}
+
+/* //////////////FOOTER/////////////// */
+.footer {
+    background-color: grey;
+    padding: 10px;
+
+}
+
+.footer p {
+    font-size: 1.7rem;
+    color: white;
+    margin: 0px 90px;
+}
+
+#imgaa:hover {
+    transform: skew(10deg);
+
+}
+
+
+
+
+
+.sub-menu1 ul {
+    flex-direction: column;
+    padding: 18px 26px;
+
+}
+
+.sub-menu1 {
+    display: none;
+    box-sizing: border-box;
+    border-radius: 70px;
+
+}
+
+.nav-bar ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    margin: 15px;
+    margin-left: 15px;
+    background-color: rgb(255, 241, 41);
+}
